@@ -13,7 +13,7 @@ class Learner(SQLModel, table=True):
     id: int | None = Field(default=None, primary_key=True)
     name: str
     email: str
-    enrolled_at: datetime | None = Field(default=None)
+    enrolled_at: datetime | None = Field(default=datetime.now())
 
 
 class LearnerCreate(SQLModel):

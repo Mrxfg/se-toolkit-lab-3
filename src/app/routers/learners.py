@@ -13,6 +13,7 @@ from app.models.learner import Learner, LearnerCreate
 
 router = APIRouter()
 
+
 # ===
 # PART A: GET endpoint
 # ===
